@@ -1,4 +1,4 @@
-import"./script-DqhT73mu.js";const c="https://ceramic-api.onrender.com";function r(t){return`
+import"./script-X_33geZs.js";const c="https://ceramic-api.onrender.com";function r(t){return`
         <article class="catalog__item">
             <img 
                 src="${new URL(t.image,c)}" 

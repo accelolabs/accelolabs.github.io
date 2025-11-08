@@ -1,4 +1,4 @@
-import"./script-DqhT73mu.js";const r="https://ceramic-api.onrender.com";function e(t){return`
+import"./script-X_33geZs.js";const r="https://ceramic-api.onrender.com";function e(t){return`
         <article class="card__item">
             <div class="card__info">
                 <img 
