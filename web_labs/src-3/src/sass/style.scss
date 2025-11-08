@@ -1,11 +1,20 @@
-@use "/src/sass/libs/modern-normalize.min.css";
-@use "/src/sass/libs/fontello.css";
-@use "/src/sass/base/basic.scss";
+@use "libs/modern-normalize.min.css";
+@use "libs/fontello.css";
+@use "base/basic.scss";
 
-@use "/src/sass/blocks/header.scss";
-@use "/src/sass/blocks/menu.scss";
+@use "blocks/header.scss";
+@use "blocks/menu.scss";
+@use "blocks/promo.scss";
+@use "blocks/about.scss";
+@use "blocks/form.scss";
+@use "blocks/footer.scss";
+@use "blocks/catalog.scss";
+@use "blocks/swiper.scss";
+@use "blocks/info.scss";
+@use "blocks/find.scss";
+@use "blocks/cards.scss";
+@use "blocks/card.scss";
 
-@use "/src/sass/ui/titles.scss";
-@use "/src/sass/ui/buttons.scss";
-
-@use "/src/sass/blocks/promo.scss";
+@use "ui/titles.scss";
+@use "ui/buttons.scss";
+@use "ui/utilities.scss";

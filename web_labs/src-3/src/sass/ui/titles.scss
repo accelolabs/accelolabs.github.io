@@ -1,7 +1,25 @@
-@use "/src/sass/base/mixins.scss" as *;
+@use "../base/mixins.scss" as *;
+
+.title-h1 {
+  @include title;
+  font-size: 24px;
+  font-style: normal;
+}
 
 .title-h1-italic {
-	@include title;
-	font-size: 24px;
-	font-style: italic;
+  @include title;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.title-h2-medium {
+  @include title;
+  font-size: 32px;
+  font-style: medium;
+}
+
+.title-h3-medium {
+  @include title;
+  font-size: 20px;
+  font-style: medium;
 }

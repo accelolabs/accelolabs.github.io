@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Website for Ceramic soul brand"/>
+  <meta name="author" content="Awesome student"/>
+  <title>Ceramic catalog</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="menu">
+    <button class="menu__close">x</button>
+    <a class="menu__link" href="catalog.html">catalog</a>
+    <a class="menu__link" href="blog.html">blog</a>
+    <a class="menu__link" href="about.html">about</a>
+  </div>
+
+  <section class="promo">
+    <div class="container promo__container">
+      <header class="header">
+        <div class="burger"><span></span><span></span><span></span></div>
+        <a href="index.html" class="header__logo">
+          <img src="src/logo/logo.png" alt="logo"/>
+        </a>
+        <div class="header__icons">
+          <a href="#">
+            <img src="src/img/icons/search-outline.png" alt="search"/>
+          </a>
+          <a href="#">
+            <img src="src/img/icons/shopping-bag.png" alt="bag"/>
+          </a>
+        </div>
+      </header>
+      <div class="promo__menu">
+        <a class="promo__link" href="catalog.html">catalog</a>
+        <a class="promo__link" href="blog.html">blog</a>
+        <a class="promo__link" href="about.html">about</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="catalog">
+    <h1 class="title-h1-italic catalog__title">
+      our pottery
+    </h1>
+    <div class="catalog__wrapper">
+      <div class="catalog__filters">
+        <button class="catalog__filter catalog__filter--active" data-category="tea">
+          For Tea
+        </button>
+        <button class="catalog__filter" data-category="kitchen">
+          For Kitchen
+        </button>
+        <button class="catalog__filter" data-category="plants">
+          For Plants
+        </button>
+      </div>
+      <div class="catalog__grid"></div>
+    </div>
+  </section>
+
+  <section class="foot">
+    <footer class="footer">
+      <div class="footer__newsletter">
+        <h2 class="footer__headers">
+          newsletter
+        </h2>
+        <p class="footer__newsletter__text">Keep up to date with news and promotions</p>
+        <label class="footer__newsletter__label">
+          <input type="text" class="footer__newsletter__input" placeholder="Enter your e-mail">
+        </label>
+        <label class="footer__checkbox">
+          <input type="checkbox" class="footer__newsletter__checkbox">
+          <p class="footer__newsletter__text">I agree with the <a href="#" class="footer__newsletter__terms">
+            terms</a></p>
+        </label>
+        <button class="btn-submit">submit</button>
+      </div>
+      <div class="footer__link-us">
+        <div class="footer__inf">
+          <div class="footer__discover">
+            <p class="footer__headers">discover</p>
+            <div class="footer__links">
+              <a class="footer__link" href="#">About Us</a>
+              <a class="footer__link" href="#">Blog</a>
+            </div>
+          </div>
+          <div class="footer__shopping">
+            <p class="footer__headers">shopping</p>
+            <div class="footer__links">
+              <a class="footer__link" href="#">Catalog</a>
+            </div>
+          </div>
+          <div class="footer__information">
+            <p class="footer__headers">information</p>
+            <div class="footer__links">
+              <a class="footer__link" href="#">Terms and Conditions</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__follow-us">
+          <p class="footer__headers">follow us</p>
+          <div class="footer__follow-us__links">
+            <a href="#">
+              <img class="footer__follow-us-icon" src="src/img/icons/facebook-icon.png">
+            </a>
+            <a href="#">
+              <img class="footer__follow-us-icon" src="src/img/icons/instagram-icon.png">
+            </a>
+            <a href="#">
+              <img class="footer__follow-us-icon" src="src/img/icons/pinterest-icon.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <p class="footer__copyright">© Copyright 2025, Ceramic soul</p>
+  </section>
+  <script type="module" src="src/js/products.js"></script>
+  <script type="module" src="src/js/script.js"></script>
+</body>
+</html>
