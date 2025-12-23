@@ -22,7 +22,7 @@ export default function App() {
   return (
     <AuthProvider>
       <AccountProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/web_labs/src-why/demo">
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="/login" element={<Login />} />
