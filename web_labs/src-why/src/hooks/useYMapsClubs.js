@@ -5,7 +5,7 @@ export function useYMapsClubs(mapContainerRef, options = {}, onSelectClub) {
   const [placemarks, setPlacemarks] = useState([]);
   const [loaded, setLoaded] = useState(false);
   const clubs = useMockClubs();
-  const mapRef = useRef(null); // карта сохраняется между ререндерами
+  const mapRef = useRef(null);
 
   useEffect(() => {
     const initMap = async () => {
@@ -37,7 +37,7 @@ export function useYMapsClubs(mapContainerRef, options = {}, onSelectClub) {
       };
 
       const myMap = new ymaps.Map(mapContainerRef.current, mapOptions);
-      mapRef.current = myMap; // сохраняем карту
+      mapRef.current = myMap;
 
       const marks = [];
       for (const club of clubs) {

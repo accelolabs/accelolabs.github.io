@@ -10,7 +10,7 @@ export default function MapWithSearch({ selectable = false, onSelectClub }) {
   const handleSelect = useCallback((club) => {
     if (selectable) {
       setSelectedClub(club);
-      onSelectClub?.(club); // проброс наружу
+      onSelectClub?.(club);
     }
   }, [selectable, onSelectClub]);
 

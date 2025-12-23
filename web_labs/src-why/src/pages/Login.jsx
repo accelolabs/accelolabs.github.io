@@ -10,7 +10,7 @@ export default function Login() {
   const navigate = useNavigate();
 
   const submit = () => {
-    login(phone, password); // создает мок-пользователя
+    login(phone, password);
     navigate("/dashboard");
   };
 

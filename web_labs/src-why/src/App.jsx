@@ -13,11 +13,6 @@ function PrivateRoute({ children }) {
   return children;
 }
 
-function AppWrapper({ children }) {
-  const { user } = useAuth();
-  return <AccountProvider initialUser={user}>{children}</AccountProvider>;
-}
-
 export default function App() {
   return (
     <AuthProvider>
